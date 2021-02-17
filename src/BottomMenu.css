@@ -1,0 +1,139 @@
+.bottomMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+}
+
+.bottomMenu__container-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(32, 32, 32);
+  padding-bottom: 30px;
+  width: 94%;
+}
+
+.bottomMenu__navBar {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(126, 126, 126);
+  width: 44%;
+  margin-top: 40px;
+}
+
+.bottomMenu__column {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.bottomMenu__column li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.bottomMenu__title {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bottomMenu__social-apps {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.bottomMenu_app {
+  cursor: pointer;
+  background-color: rgb(126, 126, 126);
+  padding: 4px;
+  border-radius: 50%;
+  margin-left: 18px;
+}
+
+.bottomMenu_app:hover {
+  transition: all 0.4s;
+  background-color: white;
+}
+
+.bottomMenu__container-bottom {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(126, 126, 126);
+  width: 94%;
+  font-size: 10px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.bottomMenu__location {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.bottomMenu__text-location {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+}
+
+.bottomMenu__navBar-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+  margin-right: 12px;
+}
+
+.bottomMenu__navBar-bottom > li {
+  cursor: pointer;
+  border-top: 2px solid;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.bottomMenu__navBar-bottom li:hover {
+  color: white;
+}
+
+.bottomMenu__navBar-bottom li:first-child:hover {
+  border-color: white;
+}
+
+.bottomMenu__navBar-bottom
+  li:first-child:hover
+  > .bottomMenu__container-guides {
+  visibility: visible;
+}
+
+.bottomMenu__container-guides {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  right: 40px;
+  bottom: 44px;
+  width: 48%;
+  background-color: rgb(17, 17, 17);
+  border-top: 1px solid rgb(126, 126, 126);
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.bottomMenu__navBar--guides {
+  width: 78%;
+  margin: 24px;
+}

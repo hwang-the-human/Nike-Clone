@@ -1,0 +1,41 @@
+.item {
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.item__image {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  max-height: 430px;
+  transition: opacity 0.35s ease-out;
+  transition-property: opacity;
+  transition-duration: 0.35s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.item__image:hover {
+  opacity: 0.8;
+}
+
+.item__description {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 14px;
+  margin-top: 14px;
+}
+
+.item__title {
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.item__text {
+  opacity: 0.5;
+}

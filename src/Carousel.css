@@ -1,0 +1,87 @@
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  overflow-y: hidden;
+  height: 570px;
+}
+
+.carousel__title {
+  display: flex;
+  width: 92%;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.carousel__container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel__button_container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  left: 0;
+  width: 140px;
+  z-index: 1;
+  padding-right: 40px;
+}
+
+.carousel__button_container--right {
+  justify-content: flex-start;
+  left: auto;
+  right: 0;
+  padding-right: 0px;
+  padding-left: 40px;
+}
+
+.carousel__button {
+  position: relative;
+  background-color: white;
+  padding: 12px;
+  border-radius: 50%;
+  top: 40%;
+}
+
+.carousel__hideScrollbar {
+  position: absolute;
+  transition: background-color 0.35s ease-out;
+  transition-property: background-color;
+  transition-duration: 0.35s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  background-color: white;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+}
+
+.carousel__container:hover > .carousel__hideScrollbar {
+  background-color: transparent;
+}
+
+.carousel__container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.carousel__container::-webkit-scrollbar-track {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.carousel__container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  height: 2px;
+}

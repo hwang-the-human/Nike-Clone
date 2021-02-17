@@ -1,0 +1,81 @@
+.billboard_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.billboard_two__title {
+  display: flex;
+  width: 92%;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.billboard_two__container {
+  display: flex;
+  width: 92%;
+  height: 1000px;
+  line-height: 50px;
+}
+
+.billboard_two__container-image-left {
+  display: flex;
+  position: relative;
+  margin-right: 8px;
+}
+
+.billboard_two__container-image-right {
+  display: flex;
+  position: relative;
+  margin-left: 8px;
+}
+
+.billboard_two__image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.billboard_two__description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 40px;
+  top: 850px;
+}
+
+.billboard_two__text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.billboard_two__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+  margin-top: 14px;
+  width: 36px;
+  height: 10px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 15px 30px 15px 30px;
+}
+
+.billboard_two__button:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.billboard_two__button--white {
+  background-color: white;
+  color: black;
+}
+
+.billboard_two__button--white:hover {
+  background-color: rgb(245, 245, 245);
+}

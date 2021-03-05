@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Nike-Clone/static/css/main.2d10689a.chunk.css",
-    "main.js": "/Nike-Clone/static/js/main.5cc5aa3b.chunk.js",
-    "main.js.map": "/Nike-Clone/static/js/main.5cc5aa3b.chunk.js.map",
-    "runtime-main.js": "/Nike-Clone/static/js/runtime-main.67ada7b4.js",
-    "runtime-main.js.map": "/Nike-Clone/static/js/runtime-main.67ada7b4.js.map",
-    "static/js/2.b44734de.chunk.js": "/Nike-Clone/static/js/2.b44734de.chunk.js",
-    "static/js/2.b44734de.chunk.js.map": "/Nike-Clone/static/js/2.b44734de.chunk.js.map",
-    "static/js/3.df23261b.chunk.js": "/Nike-Clone/static/js/3.df23261b.chunk.js",
-    "static/js/3.df23261b.chunk.js.map": "/Nike-Clone/static/js/3.df23261b.chunk.js.map",
+    "main.css": "/Nike-Clone/static/css/main.7a20305e.chunk.css",
+    "main.js": "/Nike-Clone/static/js/main.bfcb02a0.chunk.js",
+    "main.js.map": "/Nike-Clone/static/js/main.bfcb02a0.chunk.js.map",
+    "runtime-main.js": "/Nike-Clone/static/js/runtime-main.66185d63.js",
+    "runtime-main.js.map": "/Nike-Clone/static/js/runtime-main.66185d63.js.map",
+    "static/css/2.d22f252f.chunk.css": "/Nike-Clone/static/css/2.d22f252f.chunk.css",
+    "static/js/2.c3709403.chunk.js": "/Nike-Clone/static/js/2.c3709403.chunk.js",
+    "static/js/2.c3709403.chunk.js.map": "/Nike-Clone/static/js/2.c3709403.chunk.js.map",
+    "static/js/3.47206038.chunk.js": "/Nike-Clone/static/js/3.47206038.chunk.js",
+    "static/js/3.47206038.chunk.js.map": "/Nike-Clone/static/js/3.47206038.chunk.js.map",
     "index.html": "/Nike-Clone/index.html",
-    "static/css/main.2d10689a.chunk.css.map": "/Nike-Clone/static/css/main.2d10689a.chunk.css.map",
-    "static/js/2.b44734de.chunk.js.LICENSE.txt": "/Nike-Clone/static/js/2.b44734de.chunk.js.LICENSE.txt"
+    "static/css/2.d22f252f.chunk.css.map": "/Nike-Clone/static/css/2.d22f252f.chunk.css.map",
+    "static/css/main.7a20305e.chunk.css.map": "/Nike-Clone/static/css/main.7a20305e.chunk.css.map",
+    "static/js/2.c3709403.chunk.js.LICENSE.txt": "/Nike-Clone/static/js/2.c3709403.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.67ada7b4.js",
-    "static/js/2.b44734de.chunk.js",
-    "static/css/main.2d10689a.chunk.css",
-    "static/js/main.5cc5aa3b.chunk.js"
+    "static/js/runtime-main.66185d63.js",
+    "static/css/2.d22f252f.chunk.css",
+    "static/js/2.c3709403.chunk.js",
+    "static/css/main.7a20305e.chunk.css",
+    "static/js/main.bfcb02a0.chunk.js"
   ]
 }

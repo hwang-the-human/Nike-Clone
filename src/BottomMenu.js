@@ -42,10 +42,10 @@ function BottomMenu() {
         </div>
 
         <div className="bottomMenu__social-apps">
-          <TwitterIcon className="bottomMenu_app" />
-          <FacebookIcon className="bottomMenu_app" />
-          <YouTubeIcon className="bottomMenu_app" />
-          <InstagramIcon className="bottomMenu_app" />
+          <TwitterIcon className="bottomMenu__app" />
+          <FacebookIcon className="bottomMenu__app" />
+          <YouTubeIcon className="bottomMenu__app" />
+          <InstagramIcon className="bottomMenu__app" />
         </div>
       </div>
       <div className="bottomMenu__container-bottom">

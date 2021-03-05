@@ -2,6 +2,7 @@
   display: inline-block;
   flex-direction: column;
   margin-left: 20px;
+  /* margin-left: 4%; */
   width: 30%;
 }
 

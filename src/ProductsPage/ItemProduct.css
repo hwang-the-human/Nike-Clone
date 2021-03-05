@@ -1,0 +1,28 @@
+.itemProduct {
+  width: 350px;
+  /* margin-bottom: 70px; */
+  cursor: pointer;
+  width: 100%;
+}
+
+.itemProduct__image {
+  display: flex;
+  object-fit: cover;
+  height: 65%;
+  width: 100%;
+}
+
+.itemProduct__title {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.itemProduct__text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 6px;
+}
+
+.itemProduct__price {
+  font-weight: 500;
+  margin-top: 20px;
+}

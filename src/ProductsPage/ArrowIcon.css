@@ -1,0 +1,32 @@
+.arrowIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+}
+
+.arrowIcon__left {
+  height: 10px;
+  border-left: 2px solid black;
+  border-radius: 2px;
+  margin-right: 2px;
+  transition: all 0.1s;
+  transform: rotate(45deg);
+}
+
+.arrowIcon__right {
+  height: 10px;
+  border-right: 2px solid black;
+  border-radius: 2px;
+  margin-left: 2px;
+  transition: all 0.1s;
+  transform: rotate(-45deg);
+}
+
+.arrowIcon__rotate135 {
+  transform: rotate(135deg);
+}
+
+.arrowIcon__rotate-135 {
+  transform: rotate(-135deg);
+}

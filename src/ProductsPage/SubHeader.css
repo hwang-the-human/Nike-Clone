@@ -1,0 +1,80 @@
+.subHeader {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.subHeader__title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.subHeader__container {
+  position: relative;
+  display: flex;
+  margin-right: 50px;
+  height: 30px;
+  background-color: white;
+}
+
+.subHeader__filters-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 18px;
+}
+
+.subHeader__text {
+  margin-right: 8px;
+}
+
+.subHeader__sort-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.subHeader__menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: white;
+  width: 160px;
+  height: 170px;
+  border-radius: 20px;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease-out;
+}
+
+.subHeader__menu--hidden {
+  height: 0;
+}
+
+.subHeader__text-box {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 24px;
+}
+
+.subHeader__sub-text {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.subHeader__sub-text:hover {
+  color: rgba(0, 0, 0, 0.5);
+}

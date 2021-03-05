@@ -51,7 +51,7 @@
   margin-top: 40px;
 }
 
-.bottomMenu_app {
+.bottomMenu__app {
   cursor: pointer;
   background-color: rgb(126, 126, 126);
   padding: 4px;
@@ -59,7 +59,7 @@
   margin-left: 18px;
 }
 
-.bottomMenu_app:hover {
+.bottomMenu__app:hover {
   transition: all 0.4s;
   background-color: white;
 }

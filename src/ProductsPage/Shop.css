@@ -1,15 +1,31 @@
 .shop {
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 .shop__side-menu {
+  position: sticky;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  top: 100px;
   width: 100%;
   min-width: 260px;
   max-width: 260px;
+  max-height: 100vh;
+  overflow: scroll;
+  padding-bottom: 50px;
+  transition: all 0.3s ease-out;
+}
+
+.shop__side-menu--hidden {
+  min-width: 0;
+  max-width: 0;
+}
+
+.shop__side-menu-container {
+  height: 100%;
 }
 
 .shop__category-box {
@@ -24,7 +40,6 @@
 
 .shop__menu {
   height: 510px;
-  line-height: 1.8;
 }
 
 .shop__gender {
@@ -69,6 +84,7 @@
   cursor: pointer;
   font-weight: 600;
   color: rgba(0, 0, 0, 1);
+  margin-bottom: 14px;
 }
 
 .shop__menu .shop__title:hover {
@@ -85,10 +101,6 @@
   gap: 15px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.shop__option {
-  display: flex;
 }
 
 .shop__arrow-box {

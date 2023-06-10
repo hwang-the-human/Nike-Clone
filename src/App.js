@@ -5,6 +5,7 @@ import ProductsPage from "./ProductsPage/ProductsPage.js";
 import Header from "./Header.js";
 import Menu from "./Menu.js";
 import BottomMenu from "./BottomMenu.js";
+import ItemPage from "./ItemPage/ItemDetailsPage.js";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <Menu />
       <Switch>
-        <Route path="/product" component={ProductsPage} />
+        <Route path="/products/item" component={ItemPage} />
+        <Route path="/products" component={ProductsPage} />
         <Route path="/" component={HomePage} />
       </Switch>
       <BottomMenu />

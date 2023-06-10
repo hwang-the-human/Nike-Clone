@@ -3,11 +3,13 @@ import "./Filters.css";
 import ArrowIcon from "./ArrowIcon.js";
 
 function Filters(props) {
-  const [height, setHeight] = useState("");
+  const [height, setHeight] = useState(null);
+  const [moreHeight, setMoreHeight] = useState(30);
   const refFilters = useRef(null);
   const state = props.state;
   const setState = props.setState;
   const lengthOfOptions = Object.keys(state).slice(3).length;
+  const optionHeight = (lengthOfOptions - 4) * 30;
 
   function handleCheckMark(key) {
     if (state[key].check) {
@@ -15,21 +17,33 @@ function Filters(props) {
     } else {
       setState({ ...state, [key]: { ...state[key], check: true } });
     }
+    if (key === "more") {
+      if (state.more.check) {
+        setHeight(height - optionHeight - 20);
+      } else {
+        setHeight(height + optionHeight + 20);
+      }
+    }
   }
 
   useEffect(() => {
-    const getHeight = refFilters.current.clientHeight;
-    if (height === "") {
-      setHeight(getHeight + "px");
-      console.log(height);
+    if (height === null) {
+      var getHeight = refFilters.current.clientHeight;
+      if (lengthOfOptions >= 4) {
+        getHeight = getHeight - optionHeight;
+      } else {
+        getHeight = getHeight + 20;
+      }
+      setHeight(getHeight);
+      setMoreHeight(optionHeight);
     }
-  }, [height]);
+  }, [height, lengthOfOptions, optionHeight]);
 
   return (
     <div
       ref={refFilters}
       className="filters"
-      style={{ height: state.show.check ? height : "30px" }}
+      style={{ height: state.show.check ? height + "px" : "50px" }}
     >
       <div
         className="filters__title-box"
@@ -59,8 +73,16 @@ function Filters(props) {
             <p className="filters__text">{state[key].title}</p>
           </div>
         ))}
-      {lengthOfOptions >= 4 && (
-        <div className="filters__More" onClick={() => handleCheckMark("more")}>
+      {lengthOfOptions > 4 && (
+        <div
+          className="filters__More"
+          style={{
+            transform: state.more.check
+              ? "translateY(0)"
+              : "translateY(-" + moreHeight + "px)",
+          }}
+          onClick={() => handleCheckMark("more")}
+        >
           {state.more.check ? "- Less" : "+ More"}
         </div>
       )}

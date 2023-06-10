@@ -1,4 +1,4 @@
-.item {
+.itemHome {
   display: inline-block;
   flex-direction: column;
   margin-left: 20px;
@@ -6,7 +6,7 @@
   width: 30%;
 }
 
-.item__image {
+.itemHome__image {
   display: flex;
   object-fit: cover;
   width: 100%;
@@ -18,11 +18,11 @@
   transition-delay: 0s;
 }
 
-.item__image:hover {
+.itemHome__image:hover {
   opacity: 0.8;
 }
 
-.item__description {
+.itemHome__description {
   display: flex;
   flex-direction: column;
 
@@ -30,13 +30,13 @@
   margin-top: 14px;
 }
 
-.item__title {
+.itemHome__title {
   display: flex;
   font-weight: 500;
   margin-bottom: 8px;
   justify-content: space-between;
 }
 
-.item__text {
+.itemHome__text {
   opacity: 0.5;
 }

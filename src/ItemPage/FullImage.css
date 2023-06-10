@@ -1,0 +1,29 @@
+.fullImage {
+  position: absolute;
+  background-color: white;
+  left: -50px;
+  top: -207px;
+  z-index: 1;
+  width: 100vw;
+}
+
+.fullImage__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+.fullImage__closeIcon {
+  position: fixed;
+  padding: 40px;
+  top: 0;
+  right: 0;
+}
+
+.fullImage__image {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+}

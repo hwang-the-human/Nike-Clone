@@ -87,7 +87,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 New Releases
               </Link>
               <div
@@ -134,7 +134,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 Men
               </Link>
               <div
@@ -223,7 +223,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 Women
               </Link>
               <div
@@ -311,7 +311,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 Kids
               </Link>
               <div
@@ -414,7 +414,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 Customize
               </Link>
               <div
@@ -461,7 +461,7 @@ class Menu extends Component {
               className="menu__option"
               onMouseLeave={() => this.setState({ animValid: false })}
             >
-              <Link className="menu__option-title" to="/product">
+              <Link className="menu__option-title" to="/products">
                 Sale
               </Link>
               <div

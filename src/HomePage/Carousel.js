@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Carousel.css";
-import Item from "./Item.js";
+import ItemHome from "./ItemHome.js";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
@@ -44,12 +44,12 @@ class Carousel extends Component {
 
           <div className="carousel__hideScrollbar"> </div>
 
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
+          <ItemHome />
+          <ItemHome />
+          <ItemHome />
+          <ItemHome />
+          <ItemHome />
+          <ItemHome />
         </div>
       </div>
     );

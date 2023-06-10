@@ -1,0 +1,34 @@
+.images {
+  position: relative;
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.images__image {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+}
+
+.images__container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  background-color: white;
+  border-radius: 20px;
+  width: 143px;
+  height: 40px;
+  top: 20px;
+  left: 20px;
+}
+
+.images__text {
+  font-size: 14px;
+  font-weight: 500;
+}

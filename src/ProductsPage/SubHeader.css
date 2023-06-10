@@ -3,13 +3,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  top: 0;
+  background-color: white;
+  height: 65px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease-out;
 }
 
 .subHeader__title {
+  position: relative;
   font-weight: 500;
   font-size: 24px;
-  margin-left: 50px;
+  left: 50px;
+  transform-origin: 0 0;
+  transition: all 0.1s ease-out;
 }
 
 .subHeader__container {
@@ -24,6 +32,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  user-select: none;
   padding-right: 18px;
 }
 
@@ -35,6 +44,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  user-select: none;
   padding-left: 6px;
   padding-right: 6px;
 }

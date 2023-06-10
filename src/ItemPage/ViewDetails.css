@@ -1,0 +1,18 @@
+.viewDetails {
+}
+
+.viewDetails__name {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+  width: 150px;
+  height: 22px;
+  border-bottom: 1px solid black;
+}
+
+.viewDetails__name:hover {
+  border-bottom: 2px solid black;
+}

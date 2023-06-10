@@ -77,7 +77,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-y: hidden;
+  overflow: hidden;
   background-color: black;
   color: white;
   margin-top: 26px;

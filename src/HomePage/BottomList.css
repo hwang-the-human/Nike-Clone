@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-y: hidden;
+  overflow: hidden;
   cursor: pointer;
   background-color: black;
   color: white;
